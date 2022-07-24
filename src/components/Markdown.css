@@ -1,0 +1,39 @@
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    min-height: 5vh;
+    margin: 10px;
+    border: solid 1px rgb(173, 137, 180);
+    outline: none;
+}
+.input-name{
+    width: 50%;
+    padding: 5px;
+}
+.input-markdown{
+  height: 70vh;
+  max-width: 100%;
+  font-size: 1.2rem;
+  padding: 10px;
+  
+}
+.convert{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 10px;
+    width: 30%;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(186, 138, 231);
+    font-weight: bold;
+}
+.convert:hover{
+    background-color: rgb(163, 93, 228);
+}

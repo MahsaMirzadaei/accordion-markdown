@@ -1,0 +1,40 @@
+.accordion--section{
+    width: 100%;
+    border-bottom: solid rgba(112, 102, 102, 0.644) 1px;
+
+}
+
+.accordion:hover{
+    background-color: rgba(126, 126, 126, 0.712);
+}
+.accordion{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion--content{
+    overflow: hidden;
+    transition: .3s ease-out;
+    padding: 0 0 0 20px;
+}
+.accordion--text{
+    padding: 10px 50px;
+}
+.accordion--before{
+    color: rgb(235, 22, 22);
+    margin-top: 10px;
+}
+.accordion--after{
+    color: rgb(23, 128, 23);
+}
+.accordion--icon{
+    transition: .3s ease-out;
+}
+.rotate{
+    transform: rotate(90deg);
+    transition: .3s ease-out;
+}
