@@ -15,6 +15,7 @@
 }
 .input-markdown{
   height: 70vh;
+  min-height: 40vh;
   max-width: 100%;
   font-size: 1.2rem;
   padding: 10px;
@@ -36,4 +37,20 @@
 }
 .convert:hover{
     background-color: rgb(163, 93, 228);
+}
+
+@media screen and (max-width:730px) {
+    .input-markdown{
+        height: 100%;
+        max-width: 100%;   
+    }
+}
+
+@media screen and (max-width:380px) {
+    .convert{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40%;
+    }
 }
